@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	    <title>Игра в пары</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" 
+            content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script defer type="module" src="./scripts/game-app.js"></script>
+		<script>
+            document.addEventListener('DOMContentLoaded', function() {
+                createApp(document.getElementById('app'));
+            })
+        </script>
+    </head>
+    <body>
+        <div id="app" class="container"></div>
+    </body>
+</html>

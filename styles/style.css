@@ -1,0 +1,78 @@
+
+.container {
+    margin: 10px 20px;
+    position: relative;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.start-game-description {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.timer-block {
+    float: left;
+    position: absolute;
+    left: 150px;
+}
+
+.timer-block-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timer-block-text {
+    font-size: 24px;
+}
+
+.card-field {
+    margin: 15px auto;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;    
+}
+
+.card {
+    height: 80px;
+    width: 50px;
+    margin: 2px;
+	display: inline-block;
+
+    text-align: center;
+    line-height: 80px;
+
+    border: 2px solid powderblue;
+    border-radius: 10px;
+    
+    background: repeating-linear-gradient(45deg, powderblue, powderblue 10px, pink 10px, pink 20px);
+}
+
+.opened-card {
+    font-size: 30px;
+
+    background: none;
+}
+
+.matched-card {
+    font-size: 30px;
+    color: #4aa565;
+
+    background: #62c781;
+
+    border: 2px solid #4aa565;
+}
+
+
+
